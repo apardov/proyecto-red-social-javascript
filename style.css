@@ -1,0 +1,105 @@
+body {
+    background-color: #e8bc8c;
+    font-family: "Protest Guerrilla", sans-serif;
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+    max-width: 70%;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #4a4a4a;
+    width: 100%;
+    box-shadow: 1px 2px 2px 5px rgba(255, 160, 31, 0.5);
+}
+
+h1 {
+    color: #e4a65b;
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000;
+}
+
+h2 {
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000;
+    color: #f1e7e7;
+}
+
+button, .button-standard {
+    display: block;
+    font-family: "Protest Guerrilla", sans-serif;
+    padding: 12px 25px;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: #f49724;
+    color: #4a4a4a;
+    border-radius: 8px;
+    border: none;
+    font-weight: bolder;
+    font-size: medium;
+    transition: all .5s ease;
+    text-shadow: 1px 1px 0 #cccaca, -1px -1px 0 #a6a6a6, 1px -1px 0 #989292, -1px 1px 0 #a6a6a6;
+}
+
+button:hover {
+    color: #f49724;
+    text-shadow: 2px 2px 0 #cccaca, -1px -1px 0 #b6aeae, 2px -2px 0 #b6aeae, -1px 1px 0 #b6aeae;
+    background-color: #17707a;
+}
+
+form {
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+input, textarea {
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-inline: none;
+}
+
+input, textarea:focus {
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+button, li, .editPostButton, .editBodyButton {
+    display: inline-block;
+    margin: 10px;
+}
+
+.postItem {
+    background-color: #b6aeae;
+    border-radius: 15px;
+    width: 90%;
+    padding: 15px;
+    color: #434141;
+    font-family: sans-serif;
+}
+
+
+.editForm {
+    display: none;
+    margin-top: 20px;
+}
+
+#postList {
+    display: none;
+}
+
+
+
